@@ -1,0 +1,634 @@
+/*######################### DEFAULTS #####################*/
+
+
+html, body{
+    background-image: linear-gradient(to right, rgba(28, 157, 153, 1), #6463b1);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+  
+/*#################### Barra de Navegación ######################## */
+
+nav {
+    width: 100%;
+    margin: 0;
+    background-color: hsla(246, 36%, 38%, 0.4);
+}
+  
+nav ul {
+    overflow: hidden;
+    margin: 0;
+}
+  
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right{
+    float: right;
+}
+
+ul.topnav li a{
+    color: white;
+    padding: 0.5em;
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    height: auto;
+    text-align: center;
+}
+
+
+ul.topnav li a:hover{
+    opacity: 0.3;
+    font-size: 1.8em;
+}
+
+ul.topnav li.dropdownIcon{
+    display: none;
+}
+
+ul.topnav .fa {
+    width: 1.2em;
+    border-radius: 50%;
+    transition: width height 0.1s;
+}
+
+ul.topnav .fa:hover {
+    opacity: 0.7;
+    width: 40px;
+}
+
+/* Facebook */
+ul.topnav .fa-facebook {
+    background: #304f91;
+    color: white;
+    margin-right: 7px;
+}
+  
+  /* Twitter */
+ul.topnav .fa-twitter {
+    background: #54a9ef;
+    color: white;
+    margin-right: 7px;
+}
+  
+ul.topnav .fa-instagram {
+    background: #e22b32;
+    color: white;
+    margin-right: 7px;
+}
+
+/*####################### Foto principal ###################*/
+
+.container {
+    position: relative;
+    width: 100%; 
+}
+  
+.myImage1 {
+    width: 100%;
+}
+ 
+#text-block {
+    position: absolute;
+    top: 30%;
+    right: 19%;
+    background-color: hsla(0, 90%, 0% , 0.4);
+    border-radius: 2vw;
+    color: white;
+}
+
+#text-block h1 {
+
+    margin: 20px;
+    font-family: sofia,sans-serif; 
+    font-size: 3.8vw;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.05vw;
+    word-spacing: 0.3vw;       
+    text-align: center;
+}
+
+#text-block p {
+
+    margin-right: 2%;
+    font-size: 2vw;
+    text-align: right;
+    font-family: montserrat,sans-serif; 
+}
+
+    /*  ######################## SECCION 1 ######################## */
+
+.seccionSobremi {
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;  
+}
+
+
+.seccionSobremi h2{
+    font-family: sofia,sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.4vw;
+    font-size: 4vw;
+    text-align: center;
+    text-decoration: underline;
+    animation-name: enunciados;
+    animation-duration: 5s;
+}
+
+.seccionSobremi p{
+    font-family: lato, sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    letter-spacing: 0.1vh;
+    padding: 4%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container2 {
+    display: inline flex;
+    margin: 1%;
+}
+
+.container2 img{
+    width: 30%;
+    margin: 1%;
+    align-items: center;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0.7%;
+}
+
+.container2 img:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%) drop-shadow(200px rgba(0, 0, 0, 0.5));
+    transform: scale(1.1);
+    transition-timing-function: linear;
+}
+
+
+.social-container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 4%;  
+}
+
+.social-icons {
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+} 
+
+.social-icons li {
+    display: inline-block;
+    margin: 2%;
+    padding: 1%;
+    font-size: 800%;
+}
+
+.social-icons i {
+    color: #fff;
+    width: 100%;
+}
+
+.social-icons i.fa-facebook:hover {
+    color:#316FF6;
+    transform: rotateY(720deg);
+    transition-duration: 1000ms;
+    transition-timing-function: linear;
+}    
+
+.social-icons i.fa-instagram:hover {
+    color:#FD1D1D;
+    transform: scale(1.3);
+    transition-duration: 2000ms;
+    transition-timing-function: linear;
+}
+
+.social-icons i.fa-twitter:hover {
+    color:#1DA1F2;
+    transform: rotate(360deg);
+    transition-duration: 2000ms;
+    transition-timing-function: linear;
+}
+
+
+/*############ SECCION 2, PROYECTOS ##################### */
+
+.seccionProyectos{
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%; 
+}
+
+.seccionProyectos h2{
+
+    font-family: sofia,sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.4vw;
+    font-size: 4vw;
+    text-align: center;
+    text-decoration: underline;
+    animation-name: enunciados;
+    animation-duration: 5s;
+}
+
+.seccionProyectos p{
+    font-family: lato, sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    letter-spacing: 0.1vh;
+    padding: 4%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.seccionProyectos p a{
+    text-decoration: none;
+}
+
+.seccionProyectos p a:hover{
+    font-size: 105%;
+    background-color: rgba(41, 159, 192, 0.863);
+    color: rgba(14, 35, 104, 0.699);
+    border: solid;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+.seccionProyectos div.fotos_proyectos{
+    width: 100%;
+    display: grid;
+    grid-gap: 4%;
+    grid-template-columns: 44% 44%;
+}
+
+
+.seccionProyectos div p{
+
+    font-family: roboto, sans-serif;
+    font-size: 3vw;
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: 0.1vh;
+    text-align: center; 
+}
+
+.seccionProyectos div.antes img{
+    width: 100%;
+    display: inline-block;
+    border: none;
+    border-radius: 20%;
+    margin: 8%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.seccionProyectos div.despues img{
+    width: 100%;
+    display: inline-block;
+    border: none;
+    border-radius: 20%;
+    margin: 8%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.seccionProyectos div.antes img:hover{
+    transform: scale(1.1);
+}
+
+.seccionProyectos div.despues img:hover{
+    transform: scale(1.1);
+}
+
+.zoom{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 100%;
+    display: none;
+}
+
+.zoom span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.zoom img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+    width: 1200px;
+    object-fit: cover;
+}
+
+/*############ SECCION 3 TARIFAS ##################### */
+
+.seccionTarifas{
+    width: 92%;
+    padding-top: 4%;
+    padding-bottom: 4%; 
+    margin: 4%;
+}
+
+.seccionTarifas h2{
+    font-family: sofia,sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.4vw;
+    font-size: 4vw;
+    text-align: center;
+    text-decoration: underline;
+    animation-name: enunciados;
+    animation-duration: 5s;
+}
+
+.preciostrabajos{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.37);
+    overflow: hidden;
+}
+
+.preciostrabajos thead{
+
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.2vw;
+    letter-spacing: 0.1vh;
+    background-color: rgba(42, 212, 175, 0.411);
+}
+
+.preciostrabajos tbody tr{
+   
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8vw;
+    letter-spacing: 0.1vh;
+    border-bottom: 1px solid black;
+
+}
+
+.preciostrabajos tbody td{
+    padding: 10px;
+}
+
+.preciostrabajos tbody tr:last-of-type{
+    border-bottom: 2px solid black;
+}
+
+/*############ SECCION 4 CONTACTO ##################### */
+
+.seccionContacto{
+    padding: 4%;
+}
+
+.seccionContacto h2{
+
+    font-family: sofia,sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.4vw;
+    font-size: 4vw;
+    text-align: center;
+    text-decoration: underline;
+    animation-name: enunciados;
+    animation-duration: 5s;
+}
+
+.seccionContacto p {
+    font-family: lato, sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0.1vh;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.seccionContacto address {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5vw;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+form{
+    width: 100%;
+}
+
+form p{
+    padding-bottom: 4%;
+}
+
+.input{
+    text-align: left;
+    padding-bottom: 4%;
+    display: block;
+}
+
+.seccionContacto label{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 2vw;
+}
+
+.seccionContacto input, textarea{
+    color: black;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 2vw;
+    width: 99.5%;
+}
+
+.seccionContacto textarea{
+    padding-bottom: 2%;
+}
+
+.input input{
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+button{
+    width: 100%;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.19)
+}
+
+/*############ ANIMATION ##################### */
+
+@keyframes enunciados {
+    from {
+        transform: translateX(-300px);
+        opacity: 0.1;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+}
+
+/*############ Mobile ##################### */
+
+@media screen and (max-width: 850px) {
+
+    ul.topnav li:not(:nth-child(0)) {
+        display: none
+    }
+    
+    ul.topnav li.dropdownIcon{
+        display: block;
+        float: right;
+        font-size: 1em;
+    }
+
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 2em;
+    }
+
+    ul.topnav.responsive{
+        position: relative;
+    }
+
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;        
+    }
+
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+        font-size: 1.2em;
+    }
+
+    ul.topnav.responsive li.topnav-right{
+        text-align: center;
+        align-items: center;
+        float: right;
+        font-size: 1em;
+    }
+
+    ul.topnav.responsive li.topnav-right a{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    ul.topnav li:not(:nth-child(0)) {
+        display: none
+    }
+    
+    ul.topnav li.dropdownIcon{
+        display: block;
+        float: right;
+        font-size: 0.6em;
+    }
+
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1em;
+    }
+
+    ul.topnav.responsive{
+        position: relative;
+    }
+
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;        
+    }
+
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+        font-size: 0.8em;
+    }
+
+    ul.topnav.responsive li.topnav-right{
+        text-align: center;
+        align-items: center;
+        float: right;
+        font-size: 1em;
+    }
+
+    ul.topnav.responsive li.topnav-right a{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+
+    .social-icons li {
+        font-size: 350%;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+
+    .seccionSobremi p {
+        font-size: 80%;
+    }
+
+    .seccionProyectos p{
+        font-size: 80%;
+    }
+
+    .seccionProyectos div p{
+        font-size: 100%;
+    }
+
+    .preciostrabajos thead tr{
+        font-size: 1.5vw;
+    }
+
+    .preciostrabajos tbody tr{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 1600px)  {
+    .zoom img{
+        width: 95%;
+    }
+}
