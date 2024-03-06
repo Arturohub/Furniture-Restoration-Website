@@ -124,6 +124,15 @@ ul.topnav .fa-instagram {
     font-family: montserrat,sans-serif; 
 }
 
+@media only screen and (max-width: 480px){
+    #text-block h1 {
+        font-size: 18px;
+    }
+    #text-block p { 
+        font-size: 12px;
+    }
+}
+
     /*  ######################## SECCION 1 ######################## */
 
 .seccionSobremi {
@@ -219,6 +228,15 @@ ul.topnav .fa-instagram {
     transform: rotate(360deg);
     transition-duration: 2000ms;
     transition-timing-function: linear;
+}
+
+@media only screen and (max-width: 480px){
+    .seccionSobremi h2{
+        font-size: 20px;
+    }
+    .social-icons li {
+        font-size: 200%;
+    }
 }
 
 
@@ -341,6 +359,13 @@ ul.topnav .fa-instagram {
     object-fit: cover;
 }
 
+@media only screen and (max-width: 480px){
+    .seccionProyectos h2{
+        font-size: 20px;
+    }
+ }
+
+
 /*############ SECCION 3 TARIFAS ##################### */
 
 .seccionTarifas{
@@ -375,7 +400,7 @@ ul.topnav .fa-instagram {
     color: rgb(0, 0, 0);
     text-transform: capitalize;
     font-family: "Roboto", sans-serif;
-    font-size: 2.2vw;
+    font-size: 3vw;
     letter-spacing: 0.1vh;
     background-color: rgba(42, 212, 175, 0.411);
 }
@@ -396,6 +421,13 @@ ul.topnav .fa-instagram {
 
 .preciostrabajos tbody tr:last-of-type{
     border-bottom: 2px solid black;
+}
+
+@media only screen and (max-width: 480px){
+    .seccionTarifas h2{
+        font-size: 20px;
+    }
+    
 }
 
 /*############ SECCION 4 CONTACTO ##################### */
@@ -486,6 +518,10 @@ button{
 
 button:hover{
     background-color: rgba(0, 0, 0, 0.19)
+}
+
+@media only screen and (max-width: 480px){
+
 }
 
 /*############ ANIMATION ##################### */
