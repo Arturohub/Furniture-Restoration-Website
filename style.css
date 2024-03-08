@@ -235,7 +235,7 @@ ul.topnav .fa-instagram {
         font-size: 20px;
     }
     .social-icons li {
-        font-size: 200%;
+        font-size: 250%;
     }
 }
 
@@ -427,6 +427,12 @@ ul.topnav .fa-instagram {
     .seccionTarifas h2{
         font-size: 20px;
     }
+    .preciostrabajos thead{
+        font-size: 12px;
+    }
+    .preciostrabajos tbody tr{
+        font-size: 12px;
+    }
     
 }
 
@@ -521,7 +527,24 @@ button:hover{
 }
 
 @media only screen and (max-width: 480px){
-
+    .seccionContacto h2{
+        font-size: 20px;
+    }
+    .seccionContacto p {
+        font-size: 16px;
+    }
+    .seccionContacto address {
+        font-size: 12px;
+    }
+    .seccionContacto label{
+        font-size: 14px;
+    }
+    
+    .seccionContacto input, textarea{
+        font-size: 14px;
+    }
+    button{
+        font-size: 16px;
 }
 
 /*############ ANIMATION ##################### */
@@ -635,13 +658,6 @@ button:hover{
 
 @media screen and (max-width: 600px)  {
 
-    .social-icons li {
-        font-size: 350%;
-    }
-}
-
-@media screen and (max-width: 600px)  {
-
     .seccionSobremi p {
         font-size: 80%;
     }
@@ -654,13 +670,6 @@ button:hover{
         font-size: 100%;
     }
 
-    .preciostrabajos thead tr{
-        font-size: 1.5vw;
-    }
-
-    .preciostrabajos tbody tr{
-        font-size: 0.7em;
-    }
 }
 
 @media screen and (max-width: 1600px)  {
