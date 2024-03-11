@@ -133,11 +133,11 @@ ul.topnav .fa-instagram {
     }
 
 @media only screen and (max-width: 250px) {
-    #text-block {
-        position: absolute;
-        top: 10%;
-        right: 19%;
-
+    #text-block h1 {
+        font-size: 12px;
+    }
+    #text-block p { 
+        font-size: 10px;
     }
 }
 
