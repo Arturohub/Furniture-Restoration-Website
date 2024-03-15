@@ -128,13 +128,14 @@ ul.topnav .fa-instagram {
 @media only screen and (max-width: 480px){
     #text-block h1 {
         font-size: 12px;
+        margin: 5px;
     }
     #text-block p { 
         font-size: 10px;
     }
     #text-block{
         top: 20%;
-        right: 25%;
+        right: 30%;
     }
     
 }
