@@ -437,6 +437,22 @@ ul.topnav .fa-instagram {
     
 }
 
+@media only screen and (max-width: 380px){
+
+    .seccionTarifas{
+        width: 80%;
+    }
+    .seccionTarifas h2{
+        font-size: 10px;
+    }
+    .preciostrabajos thead{
+        font-size: 8px;
+    }
+    .preciostrabajos tbody tr{
+        font-size: 8px;
+    }
+}
+
 /*############ SECCION 4 CONTACTO ##################### */
 
 .seccionContacto{
