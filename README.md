@@ -1,5 +1,3 @@
-I decided to start the path of becoming a full stack developer on Monday 8th January 2024.
-
 Web designing and developing was something I always wanted to learn, so I decided to go for it full time.
 
 This very special project was done during mid January, just after I finished learning about HTML, CSS and vanilla Javascript. 
